@@ -1,0 +1,154 @@
+/*
+	Nexa Theme
+	Author: zaki | Nexa
+	Version 0.0.1
+*/
+/* googleFont */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.11.2/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+/* Font */
+@media only screen and (min-width: 1250px) {
+  .container {
+    width: 1250px;
+  }
+}
+@media only screen and (min-width: 1650px) {
+  .carousel-caption {
+    left: 21%;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {
+  .carousel {
+    margin-top: 10%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .carousel-caption p {
+    display: none;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    right: 40%;
+    bottom: 20%;
+    left: 18%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  .navbar.scrolling-navbar > .container {
+    display: none;
+  }
+
+  .carousel {
+    margin-top: 65px;
+  }
+
+  .navbar-toggler {
+    visibility: hidden;
+  }
+
+  .productDiv .col-md-8 .view.overlay {
+    height: 185px;
+  }
+
+  .filterBar .whiteBg.rounded .col-md-7.form-inline .col-sm-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .filterBar label {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .carousel-caption {
+    bottom: 18%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  footer {
+    text-align: center;
+  }
+  footer ul.navbar-nav {
+    margin: 1rem 0;
+  }
+  footer ul.social {
+    text-align: center !important;
+    margin: 1rem 0;
+  }
+  footer .footer-bottom p {
+    width: 100%;
+  }
+  footer ul.links {
+    text-align: center !important;
+    margin: 1rem 0;
+  }
+
+  .customers {
+    padding: 2rem;
+  }
+
+  .products .card.mt-3.rounded {
+    margin-bottom: 1rem;
+  }
+
+  .filterBar .whiteBg.rounded {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+  .filterBar .whiteBg.rounded .col-md-7.form-inline {
+    border: 0;
+  }
+  .filterBar .whiteBg.rounded select {
+    position: relative;
+    width: 100%;
+    background: #f0f2f7;
+    border: 1px solid #e2e8f0 !important;
+    height: 40px;
+    border-radius: 20px;
+    text-align-last: center;
+    margin: 0;
+  }
+  .filterBar .col-sm-8 input {
+    height: 40px;
+  }
+  .filterBar .col-md-6 {
+    width: 50%;
+  }
+  .filterBar .col-md-3.form-inline {
+    display: block;
+  }
+
+  .carousel {
+    height: 300px;
+  }
+  .carousel .carousel-item, .carousel .carousel-inner, .carousel .view {
+    height: 100%;
+  }
+  .carousel .carousel-item img, .carousel .carousel-inner img, .carousel .view img {
+    height: 100%;
+    width: auto !important;
+    max-width: initial;
+    transform: translateX(-200px);
+  }
+
+  .carousel-caption h3 {
+    font-size: 2.25rem;
+    font-weight: 900;
+  }
+
+  .carousel-caption a.btn-info {
+    padding: 10px 15px;
+  }
+}

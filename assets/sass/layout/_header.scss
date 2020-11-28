@@ -1,0 +1,152 @@
+nav {
+    .top-nav {
+        width: 100%;
+        padding: 0rem 0;
+        border-right: 1px #f0f2f7 solid;
+
+        .button-collapse {
+            color: $base-color;
+        }
+        
+        .float-left.mr-4 {
+            display: inline-block;
+            height: 100%;
+            border-right: 1px #f0f2f7 solid;
+            padding: 1.5rem;
+        }
+
+        .navbar-nav {
+            .nav-item {
+                a.nav-link {
+                    color: $base-color !important;
+                    font-size: 0.875rem;
+                    font-weight: 600;
+                    &:hover {
+                        color: black !important;
+                    }
+                    &.cart {
+                        line-height: 30px;
+                        .badge-pill {
+                            box-shadow: none;
+                            width: 20px;
+                            height: 20px;
+                            line-height: 15px;
+                            background-color: #e3e8f0 !important;
+                            color: $base-color !important;
+                        }
+                    }
+                }
+                a.signIn {
+                    border: 2px #e3e8f0 solid !important;
+                    box-shadow: none;
+                    color: $base-color !important;
+                    font-weight: 700;
+                    &:hover {
+                        background-color: $base-color !important;
+                        color: white !important;
+                    }
+                }
+            }
+        }
+    }
+    &.navbar.scrolling-navbar {
+        padding: 0;
+    }
+}
+.secMenu {
+    ul.navbar-nav {
+        li {
+            a.nav-link {
+                font-size:0.687rem;
+                font-weight: 600;
+                color: $sec-color !important;
+                text-transform: uppercase;
+                &.active, &:hover  {
+                    color: $base-color !important;
+                    background-color: transparent;
+                }   
+            }
+        }
+    }
+}
+.search {
+    ul.navbar-nav {
+        li {
+            a.nav-link {
+                font-size:0.687rem;
+                font-weight: 600;
+                color: $sec-color !important;
+                text-transform: uppercase;
+                &.active, &:hover  {
+                    color: $base-color !important;
+                    background-color: transparent;
+                }   
+            }
+            &:first-child {
+                line-height: 31px;
+                border-right: 1px solid #e3e8f0;
+                padding-right: 1rem;
+            }
+    
+            &:last-child {
+                border-right: 1px solid #e3e8f0;
+                .search-form {
+                    .form-group {
+                        display: flex;
+                        .fas.fa-search.active {
+                            float: left;
+                            line-height: 40px;
+                        }
+                        &::before {
+
+                        }
+                    
+                    input[type=text] {
+                        border-bottom: 0;
+                        &:focus {
+                            border-bottom: 0;
+                        }
+
+                        &::-webkit-input-placeholder { /* Edge */
+                            color: #a1a7bd;
+                            font-size: 0.875rem;
+                            font-weight: 600;
+                          }
+                          
+                          &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+                            color: #a1a7bd;
+                            font-size: 0.875rem;
+                            font-weight: 600;
+                          }
+                          
+                          &::placeholder {
+                            font-size: 0.875rem;
+                            color: #a1a7bd;
+                            font-weight: 600;
+                          }
+                        }
+                    }
+                }
+            
+            }
+        }
+    
+    }
+}
+
+.navbar.scrolling-navbar.top-nav-collapse {
+    padding-bottom: 0;
+    > .container {
+        display: none;
+    }
+}
+#slide-out {
+    .badge.badge-pill.red {
+        box-shadow: none;
+        width: 20px;
+        height: 20px;
+        line-height: 15px;
+        background-color: #e3e8f0 !important;
+        color: #343e5c !important;
+    }
+}
